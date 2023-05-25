@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding: 5px 0;
+    background-color: gray;
+}
+.medsos ul li{
+    display: inline-block;
+    color: honeydew;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    min-height: 400px;
+    height: 60vh;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+header h1{
+   
+    float: left;
+    padding: 15px 0;
+    color: gray;
+    background-color: white;
+}
+header ul {
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: gray;
+    color: white;
+}
+.banner{
+    height: 60vh;
+    background-image: url(../logo.png);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: grey;
+    opacity: 0.6;
+}
+.banner h2{
+    color: #fff;
+    z-index: 1;
+    padding:20px 25px;
+    border:3px solid #fff;
+}
+section{
+    padding: 72px 0;
+}
+footer{
+    clear: both;
+    width: 98.8%;
+    height: auto;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    border-radius: 3px;
+    border-bottom: 1px solid grey;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    font-size: 12px;
+    bottom: 5px;
+    position: absolute;
+}
